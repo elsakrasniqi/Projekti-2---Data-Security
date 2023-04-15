@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class MyProgram  {
-      static char[][] table= new char[5][5];
+public class MyProgram {
+    static char[][] table= new char[5][5];
     static void createTable() {
         for(int i=0; i<2; i++)
             for(int j=0; j<5; j++) {
@@ -11,11 +11,14 @@ public class MyProgram  {
             for(int j=0;j<5;j++)
                 table[i][j]=(char)(i*5+j+65+1);
 
+    }
+    static String encrypt(String pt) {
+        String encpt= "";
+        char[] encpt1= pt.toCharArray();
+    
+        return encpt;
 
     }
-  
-
-
 
 
 }
