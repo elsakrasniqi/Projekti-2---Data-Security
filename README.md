@@ -1,2 +1,2 @@
 # Projekti-2-Data-Security
-Enkriptimi dhe dekriptimi permes Polybius Square Cipher
+Polybius Square Cipher with 2D array and Adjustable keys
