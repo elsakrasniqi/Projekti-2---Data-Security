@@ -74,7 +74,12 @@ int main()
                 "3- Exit." << endl;
         cout << "Choose an option: ";
         cin >> option; 
-      
+      switch(option){     
+            case 1:
+                cin.ignore();
+                keys_table();
+                cout << "\nPlain text: ";
+                getline (cin, Enctext);
    }
     return 0;
 }
