@@ -108,7 +108,7 @@ int main()
           break;
           
              case 3:
-                flag = false; 
+                flag = false;
           break;
        };
    }
