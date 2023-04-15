@@ -21,3 +21,9 @@ void keys_table(){
         a += 1;
     }
 };
+void encryption(string text){
+    char row, col;
+    for (int i = 0; i < text.length(); i++){
+        if (text[i] >= 'a' && text[i] <= 'z')
+            text[i] = text[i] - 32;
+    }
