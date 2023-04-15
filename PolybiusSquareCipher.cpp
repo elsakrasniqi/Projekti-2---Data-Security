@@ -65,7 +65,12 @@ int main()
     int option;
     bool flag = true;
     cout << "Note: J and I are in the same slot." << endl;
- 
+    while (flag){
+        cout << "Choose an option: ";
+        cin >> option; 
+      
+   }
+    return 0;
 }
 
   
