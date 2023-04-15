@@ -27,7 +27,15 @@ void encryption(string text){
         if (text[i] >= 'a' && text[i] <= 'z')
             text[i] = text[i] - 32;
     }
-cout << "Cipher text: " <<endl;
-  for (int i=0; i=text.length(); i++){
-    for (int r=1; r<6; r++)
-  }
+    cout << "Cipher text: "<<endl;
+    for (int i = 0; i < text.length(); i++){
+        for (int r = 1; r < 6; r++){
+            for (int c = 1; c < 6; c++){
+                if (text[i] == 'J'){
+                    text[i] = 'I';
+                }                
+               
+            }
+        }
+    }  
+};
