@@ -102,11 +102,9 @@ int main()
              case 3:
                 flag = false; 
           break;
-        };
-   }
-   
+       };
    }
    return 0;
-}
+   }
 
   
