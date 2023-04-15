@@ -3,7 +3,6 @@
 using namespace std;
 
 //Krijimi i matrices 5 x 5
-
 char table[6][6] = {{'0','1','2','3','4','5'},
                     {'1','A','B','C','D','E'},
                     {'2','F','G','H','I','K'},
@@ -13,7 +12,6 @@ char table[6][6] = {{'0','1','2','3','4','5'},
 
 
 //Zgjedhja e celesit per rreshta dhe kolona
-
 void keys_table(){
     string keys;
     int a = 1, b = 1;
@@ -29,7 +27,6 @@ void keys_table(){
 };
 
 //Funksioni i enkriptimit
-
 void encryption(string text){
     char row, col;
     for (int i = 0; i < text.length(); i++){
@@ -54,7 +51,6 @@ void encryption(string text){
 };
 
 //Funksioni i denkriptimit
-
 void decryption (string text) {
   int row, col;
   cout << "Decipher text:"<< endl;
@@ -72,7 +68,6 @@ void decryption (string text) {
 };
 
 //Krijimi i programit
-
 int main()
 {   string Enctext, Dectext;
     int option;
