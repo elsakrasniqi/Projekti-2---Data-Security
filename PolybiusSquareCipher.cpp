@@ -64,6 +64,8 @@ int main()
 {   string Enctext, Dectext;
     int option;
     bool flag = true;
+    cout << "Note: J and I are in the same slot." << endl;
+ 
 }
 
   
