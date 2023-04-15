@@ -88,7 +88,9 @@ int main()
       cin.ignore();
       keys_table();
       cout << "\nCipher text: ";
-      
+      getline(cin,Dectext);
+                Dectext.erase(remove(Dectext.begin(),Dectext.end(),' '),Dectext.end());
+                decryption(Dectext); break;
     return 0;
 }
 
