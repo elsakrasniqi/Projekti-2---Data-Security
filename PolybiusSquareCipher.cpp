@@ -80,6 +80,9 @@ int main()
                 keys_table();
                 cout << "\nPlain text: ";
                 getline (cin, Enctext);
+          Enctext.erase(remove(Enctext.begin(),Enctext.end(),' '),Enctext.end());
+                encryption(Enctext);
+                break;
    }
     return 0;
 }
