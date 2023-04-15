@@ -72,7 +72,7 @@ int main()
                 "1- Cipher a message.\n" <<
                 "2- Decipher a message.\n" <<
                 "3- Exit." << endl;
-        cout << "Choose an option: ";
+        cout << "\nChoose an option: ";
         cin >> option; 
       switch(option){     
             case 1:
