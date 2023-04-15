@@ -90,9 +90,10 @@ int main()
       getline(cin,Dectext);
                 Dectext.erase(remove(Dectext.begin(),Dectext.end(),' '),Dectext.end());
                 decryption(Dectext);
-      break;
-       case 3:
-                flag = false; break;
+          break;
+             case 3:
+                flag = false; 
+          break;
         };
    }
    
