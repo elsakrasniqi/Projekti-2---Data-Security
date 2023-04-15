@@ -60,4 +60,10 @@ void decryption (string text) {
     }  
 };
 
+int main()
+{   string Enctext, Dectext;
+    int option;
+    bool flag = true;
+}
+
   
