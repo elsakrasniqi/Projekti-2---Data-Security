@@ -90,7 +90,12 @@ int main()
       cout << "\nCipher text: ";
       getline(cin,Dectext);
                 Dectext.erase(remove(Dectext.begin(),Dectext.end(),' '),Dectext.end());
-                decryption(Dectext); break;
+                decryption(Dectext);
+      break;
+       case 3:
+                flag = false; break;
+        };
+   }
     return 0;
 }
 
