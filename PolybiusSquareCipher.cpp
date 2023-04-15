@@ -83,8 +83,7 @@ int main()
          Enctext.erase(remove(Enctext.begin(),Enctext.end(),' '),Enctext.end());
           encryption(Enctext);
           break;
-   }
-      case 2:
+             case 2:
       cin.ignore();
       keys_table();
       cout << "\nCipher text: ";
@@ -95,6 +94,8 @@ int main()
        case 3:
                 flag = false; break;
         };
+   }
+   
    }
    return 0;
 }
