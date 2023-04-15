@@ -48,4 +48,16 @@ void decryption (string text) {
   int row, col;
   cout << "Decipher text:"<< endl;
   for (int i = 0; i < (text.length()-1); i+=2){
+    for (int r = 0; r < 6; r++){
+       for (int c = 0; c < 6; c++){
+         if (table[r][c] == (char)text[i])
+            row = r; 
+         if (table[r][c] == (char)text[i+1])
+           col = r;
+          } 
+        }
+        cout << table[row][col];
+    }  
+};
+
   
