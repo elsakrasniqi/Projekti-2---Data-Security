@@ -66,6 +66,12 @@ int main()
     bool flag = true;
     cout << "Note: J and I are in the same slot." << endl;
     while (flag){
+       cout << "\n\n---------------------------------" <<
+                "\n" <<
+                "Hi! What would you like to do today?\n" <<
+                "1- Cipher a message.\n" <<
+                "2- Decipher a message.\n" <<
+                "3- Exit." << endl;
         cout << "Choose an option: ";
         cin >> option; 
       
