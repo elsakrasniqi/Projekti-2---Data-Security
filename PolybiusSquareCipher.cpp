@@ -34,7 +34,11 @@ void encryption(string text){
                 if (text[i] == 'J'){
                     text[i] = 'I';
                 }                
-               
+                if (text[i] == table[r][c]){
+                    row = table[r][0];
+                    col = table[0][c];
+                    cout << row << col;
+                }
             }
         }
     }  
