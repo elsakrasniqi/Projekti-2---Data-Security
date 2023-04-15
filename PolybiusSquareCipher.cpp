@@ -82,7 +82,8 @@ int main()
                 "3- Exit." << endl;
         cout << "\nChoose an option: ";
         cin >> option; 
-      switch(option){     
+      switch(option){ 
+          
             case 1:
                 cin.ignore();
                 keys_table();
@@ -91,6 +92,7 @@ int main()
          Enctext.erase(remove(Enctext.begin(),Enctext.end(),' '),Enctext.end());
           encryption(Enctext);
           break;
+          
              case 2:
       cin.ignore();
       keys_table();
@@ -99,6 +101,7 @@ int main()
                 Dectext.erase(remove(Dectext.begin(),Dectext.end(),' '),Dectext.end());
                 decryption(Dectext);
           break;
+          
              case 3:
                 flag = false; 
           break;
