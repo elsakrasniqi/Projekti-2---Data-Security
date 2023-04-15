@@ -11,7 +11,7 @@ char table[6][6] = {{'0','1','2','3','4','5'},
                     {'5','V','W','X','Y','Z'}};
 
 
-//Zgjedhja e celesit
+//Zgjedhja e celesit per rreshta dhe kolona
 void keys_table(){
     string keys;
     int a = 1, b = 1;
