@@ -43,3 +43,9 @@ void encryption(string text){
         }
     }  
 };
+
+void decryption (string text) {
+  int row, col;
+  cout << "Decipher text:"<< endl;
+  for (int i = 0; i < (text.length()-1); i+=2){
+  
